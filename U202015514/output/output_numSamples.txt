@@ -1,0 +1,406 @@
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=256     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  1.87 MB/s
+Total Duration:    0.134 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.014 s
+Write times 99th %ile: 0.013 s
+Write times 90th %ile: 0.005 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.004 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  7.57 MB/s
+Total Duration:    0.033 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.002 s
+Read times 99th %ile: 0.002 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 256 objects...
+Deleting a batch of 256 objects in range {0, 255}... Succeeded
+Successfully deleted 256/256 objects in 200.2684ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=512     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       512
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       512
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.500 MB
+Total Throughput:  1.87 MB/s
+Total Duration:    0.267 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.023 s
+Write times 99th %ile: 0.022 s
+Write times 90th %ile: 0.004 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.003 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.500 MB
+Total Throughput:  7.35 MB/s
+Total Duration:    0.068 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.003 s
+Read times 99th %ile: 0.002 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 512 objects...
+Deleting a batch of 512 objects in range {0, 511}... Succeeded
+Successfully deleted 512/512 objects in 411.7794ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=512     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       512
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       512
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.500 MB
+Total Throughput:  2.01 MB/s
+Total Duration:    0.249 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.014 s
+Write times 99th %ile: 0.012 s
+Write times 90th %ile: 0.004 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.003 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.500 MB
+Total Throughput:  7.48 MB/s
+Total Duration:    0.067 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.003 s
+Read times 99th %ile: 0.002 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.000 s
+
+
+Cleaning up 512 objects...
+Deleting a batch of 512 objects in range {0, 511}... Succeeded
+Successfully deleted 512/512 objects in 418.406ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3>
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=768     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       768
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       768
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.750 MB
+Total Throughput:  1.98 MB/s
+Total Duration:    0.380 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.014 s
+Write times 99th %ile: 0.011 s
+Write times 90th %ile: 0.005 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.004 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.750 MB
+Total Throughput:  7.52 MB/s
+Total Duration:    0.100 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.003 s
+Read times 99th %ile: 0.002 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.000 s
+
+
+Cleaning up 768 objects...
+Deleting a batch of 768 objects in range {0, 767}... Succeeded
+Successfully deleted 768/768 objects in 608.1557ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>e
+'e' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=1024     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       1024
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       1024
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 1.000 MB
+Total Throughput:  1.96 MB/s
+Total Duration:    0.511 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.020 s
+Write times 99th %ile: 0.013 s
+Write times 90th %ile: 0.004 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.004 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 1.000 MB
+Total Throughput:  6.44 MB/s
+Total Duration:    0.155 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.006 s
+Read times 99th %ile: 0.003 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.002 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.000 s
+
+
+Cleaning up 1024 objects...
+Deleting a batch of 1000 objects in range {0, 999}... Succeeded
+Deleting a batch of 24 objects in range {1000, 1023}... Succeeded
+Successfully deleted 1024/1024 objects in 824.7794ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=1280     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       1280
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       1280
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 1.250 MB
+Total Throughput:  1.95 MB/s
+Total Duration:    0.643 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.021 s
+Write times 99th %ile: 0.014 s
+Write times 90th %ile: 0.004 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.004 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 1.250 MB
+Total Throughput:  7.30 MB/s
+Total Duration:    0.171 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.005 s
+Read times 99th %ile: 0.003 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.000 s
+
+
+Cleaning up 1280 objects...
+Deleting a batch of 1000 objects in range {0, 999}... Succeeded
+Deleting a batch of 280 objects in range {1000, 1279}... Succeeded
+Successfully deleted 1280/1280 objects in 1.0560095s

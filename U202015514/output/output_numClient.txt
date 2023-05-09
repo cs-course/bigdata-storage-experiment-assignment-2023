@@ -1,0 +1,359 @@
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS C:\Users\胡鹏飞> cd  C:\Users\胡鹏飞\Desktop\大数据管理
+PS C:\Users\胡鹏飞\Desktop\大数据管理> cd s3
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> ls
+
+
+    目录: C:\Users\胡鹏飞\Desktop\大数据管理\s3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2023/5/9     15:57            728 run-s3bench.cmd
+-a----          2023/5/9     16:12       10349056 s3bench.exe
+-a----          2023/5/9     16:03           9753 s3bench.go
+
+
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=8     -numSamples=256     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       8
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  1.85 MB/s
+Total Duration:    0.135 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.015 s
+Write times 99th %ile: 0.014 s
+Write times 90th %ile: 0.005 s
+Write times 75th %ile: 0.004 s
+Write times 50th %ile: 0.004 s
+Write times 25th %ile: 0.004 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  7.34 MB/s
+Total Duration:    0.034 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.003 s
+Read times 99th %ile: 0.002 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 256 objects...
+Deleting a batch of 256 objects in range {0, 255}... Succeeded
+Successfully deleted 256/256 objects in 204.8121ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>e
+'e' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=16     -numSamples=256     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       16
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       16
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  1.63 MB/s
+Total Duration:    0.153 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.023 s
+Write times 99th %ile: 0.023 s
+Write times 90th %ile: 0.018 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.008 s
+Write times Min:       0.005 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  6.44 MB/s
+Total Duration:    0.039 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.006 s
+Read times 99th %ile: 0.005 s
+Read times 90th %ile: 0.003 s
+Read times 75th %ile: 0.003 s
+Read times 50th %ile: 0.002 s
+Read times 25th %ile: 0.002 s
+Read times Min:       0.001 s
+
+
+Cleaning up 256 objects...
+Deleting a batch of 256 objects in range {0, 255}... Succeeded
+Successfully deleted 256/256 objects in 203.8984ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3> .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=24     -numSamples=256     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       24
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       24
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  1.75 MB/s
+Total Duration:    0.143 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.035 s
+Write times 99th %ile: 0.028 s
+Write times 90th %ile: 0.015 s
+Write times 75th %ile: 0.013 s
+Write times 50th %ile: 0.012 s
+Write times 25th %ile: 0.011 s
+Write times Min:       0.007 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  6.33 MB/s
+Total Duration:    0.039 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.010 s
+Read times 99th %ile: 0.008 s
+Read times 90th %ile: 0.005 s
+Read times 75th %ile: 0.004 s
+Read times 50th %ile: 0.003 s
+Read times 25th %ile: 0.002 s
+Read times Min:       0.001 s
+
+
+Cleaning up 256 objects...
+Deleting a batch of 256 objects in range {0, 255}... Succeeded
+Successfully deleted 256/256 objects in 203.6914ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3>  .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=32     -numSamples=256     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       32
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       32
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  1.73 MB/s
+Total Duration:    0.145 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.055 s
+Write times 99th %ile: 0.049 s
+Write times 90th %ile: 0.020 s
+Write times 75th %ile: 0.018 s
+Write times 50th %ile: 0.017 s
+Write times 25th %ile: 0.016 s
+Write times Min:       0.009 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  6.34 MB/s
+Total Duration:    0.039 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.015 s
+Read times 99th %ile: 0.010 s
+Read times 90th %ile: 0.007 s
+Read times 75th %ile: 0.005 s
+Read times 50th %ile: 0.003 s
+Read times 25th %ile: 0.002 s
+Read times Min:       0.001 s
+
+
+Cleaning up 256 objects...
+Deleting a batch of 256 objects in range {0, 255}... Succeeded
+Successfully deleted 256/256 objects in 206.13ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
+PS C:\Users\胡鹏飞\Desktop\大数据管理\s3>  .\run-s3bench.cmd
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>s3bench.exe     -accessKey=minioadmin     -accessSecret=minioadmin     -bucket=test     -endpoint=http://127.0.0.1:9000     -numClients=40     -numSamples=256     -objectNamePrefix=loadgen     -objectSize=1024
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       40
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (0s)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           test
+objectNamePrefix: loadgen
+objectSize:       0.0010 MB
+numClients:       40
+numSamples:       256
+verbose:       %!d(bool=false)
+tracing:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  1.75 MB/s
+Total Duration:    0.143 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.053 s
+Write times 99th %ile: 0.053 s
+Write times 90th %ile: 0.026 s
+Write times 75th %ile: 0.021 s
+Write times 50th %ile: 0.020 s
+Write times 25th %ile: 0.019 s
+Write times Min:       0.011 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.250 MB
+Total Throughput:  6.23 MB/s
+Total Duration:    0.040 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.013 s
+Read times 99th %ile: 0.012 s
+Read times 90th %ile: 0.007 s
+Read times 75th %ile: 0.006 s
+Read times 50th %ile: 0.004 s
+Read times 25th %ile: 0.002 s
+Read times Min:       0.001 s
+
+
+Cleaning up 256 objects...
+Deleting a batch of 256 objects in range {0, 255}... Succeeded
+Successfully deleted 256/256 objects in 205.2582ms
+
+C:\Users\胡鹏飞\Desktop\大数据管理\s3>pause
+请按任意键继续. . .
