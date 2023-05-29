@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cuckoo.dir/src/cuckoo.cpp.o CMakeFiles/cuckoo.dir/src/graph.cpp.o CMakeFiles/cuckoo.dir/src/main.cpp.o  -o cuckoo   -L/mnt/d/lmq/material/undergraduate/dasan/big_data_storage/cuckoo_hash/lib  -Wl,-rpath,/mnt/d/lmq/material/undergraduate/dasan/big_data_storage/cuckoo_hash/lib -Wl,-Bstatic -lSMHasherSupport -lcityhash -Wl,-Bdynamic 

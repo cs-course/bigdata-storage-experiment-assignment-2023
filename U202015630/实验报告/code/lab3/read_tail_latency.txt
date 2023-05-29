@@ -1,0 +1,9 @@
+read tail latency:
+average letency:	:86.878903 ms
+latency_max:	141.095400 ms
+latency_99th:	116.488695 ms
+latency_95th:	103.199244 ms
+latency_90th:	98.458290 ms
+latency_75th:	91.933727 ms
+latency_50th:	85.058451 ms
+latency_25th:	80.431700 ms
