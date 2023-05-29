@@ -1,0 +1,7 @@
+write tail latency:
+latency_max:	188.333750 ms
+latency_99th:	185.257196 ms
+latency_90th:	113.532066 ms
+latency_75th:	100.246429 ms
+latency_50th:	90.366364 ms
+latency_25th:	83.792210 ms

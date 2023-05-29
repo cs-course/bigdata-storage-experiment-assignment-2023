@@ -1,0 +1,7 @@
+read tail latency:
+latency_max:	2247.038364 ms
+latency_99th:	1764.769554 ms
+latency_90th:	659.763098 ms
+latency_75th:	350.875616 ms
+latency_50th:	141.853094 ms
+latency_25th:	77.697515 ms
