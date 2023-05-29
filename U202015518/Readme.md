@@ -5,7 +5,8 @@
 | 服务端   | minio     |
 | 客户端   | mc        |
 | 评测工具 | s3bench   |
-| 操作系统 | windows11 |
+| 课程选题 | cuckoo driven way |
+| 操作系统 | windows10 |
 
 # 文件解释
 
