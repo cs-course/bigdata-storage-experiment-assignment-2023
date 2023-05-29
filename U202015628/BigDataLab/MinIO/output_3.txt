@@ -1,0 +1,344 @@
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           loadgen
+objectNamePrefix: loadgen
+objectSize:       1024.0000 MB
+numClients:       3
+numSamples:       100
+verbose:       %!d(bool=true)
+
+
+Generating in-memory sample data... Done (2.677430557s)
+
+Running Write test...
+Write operation completed in 3.6425s (1/100) - 281.13MB/s
+Write operation completed in 3.6483s (2/100) - 561.34MB/s
+Write operation completed in 3.6834s (3/100) - 833.94MB/s
+Write operation completed in 4.9973s (4/100) - 474.08MB/s
+Write operation completed in 4.9596s (5/100) - 592.38MB/s
+Write operation completed in 4.9957s (6/100) - 710.77MB/s
+Write operation completed in 5.6157s (7/100) - 502.67MB/s
+Write operation completed in 5.6172s (8/100) - 574.46MB/s
+Write operation completed in 5.6209s (9/100) - 646.25MB/s
+Write operation completed in 6.9865s (10/100) - 481.95MB/s
+Write operation completed in 6.9878s (11/100) - 530.13MB/s
+Write operation completed in 6.9874s (12/100) - 578.32MB/s
+Write operation completed in 5.8317s (13/100) - 491.59MB/s
+Write operation completed in 5.8327s (14/100) - 529.40MB/s
+Write operation completed in 5.8324s (15/100) - 567.21MB/s
+Write operation completed in 1.7584s (16/100) - 532.63MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19C1EB54A22, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7642s (17/100) - 532.44MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19C1F0FAE48, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7772s (18/100) - 532.29MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19C1FCBBC3A, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5764s (19/100) - 504.92MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19C7D08BEFE, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5967s (20/100) - 504.67MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19C7DE2BB39, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5794s (21/100) - 504.67MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19C7DE2BB64, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6092s (22/100) - 479.55MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19CDCF37123, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6103s (23/100) - 479.31MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19CDDEDB6AA, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6142s (24/100) - 479.26MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19CDE1A7896, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5487s (25/100) - 457.43MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19D393FB908, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5463s (26/100) - 457.24MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19D3A1C0C44, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5497s (27/100) - 457.16MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19D3A7BE732, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5939s (28/100) - 436.71MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19D98438660, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5964s (29/100) - 436.50MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19D99415DDB, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5913s (30/100) - 436.49MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19D9953CEAE, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6005s (31/100) - 417.70MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19DF7A6AD5F, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5895s (32/100) - 417.64MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19DF7FBE608, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5982s (33/100) - 417.52MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19DF893EC4D, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6515s (34/100) - 399.75MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19E5A171D83, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6617s (35/100) - 399.58MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19E5B09752E, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6617s (36/100) - 399.48MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19E5BA1466D, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5697s (37/100) - 384.06MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19EB7A7F96E, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5718s (38/100) - 383.89MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19EB8B87B35, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5776s (39/100) - 383.73MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19EB9A9B51F, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6248s (40/100) - 369.06MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19F1881BA7E, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6213s (41/100) - 368.94MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19F195D460E, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6190s (42/100) - 368.82MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19F1A2AC928, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5885s (43/100) - 355.49MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19F772DDF13, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5742s (44/100) - 355.49MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19F772DDF0B, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5925s (45/100) - 355.21MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19F791383FC, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5983s (46/100) - 342.81MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19FD67530E9, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6063s (47/100) - 342.75MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19FD6F1B284, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5954s (48/100) - 342.59MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A19FD82EE06D, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6165s (49/100) - 330.88MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A036CE89A9, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6214s (50/100) - 330.78MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A0379554AE, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6138s (51/100) - 330.69MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A0385E90BF, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6230s (52/100) - 319.70MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A0978B07E2, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6193s (53/100) - 319.64MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A098185DA5, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6157s (54/100) - 319.57MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A098AB61D6, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5927s (55/100) - 309.44MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A0F67A0AF7, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5953s (56/100) - 309.37MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A0F731D04A, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6006s (57/100) - 309.27MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A0F810237C, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5732s (58/100) - 299.93MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A15440232D, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5761s (59/100) - 299.85MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A155216388, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5713s (60/100) - 299.79MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A155BAFFE8, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5884s (61/100) - 290.91MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A1B2ED327A, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5857s (62/100) - 290.84MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A1B3A688DD, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5857s (63/100) - 290.79MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A1B43EB5C3, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6153s (64/100) - 282.21MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A213ED3B15, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6362s (65/100) - 282.17MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A21473B957, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6302s (66/100) - 282.08MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A2156AE775, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6034s (67/100) - 274.09MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A274018715, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6130s (68/100) - 274.09MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A274115B62, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6060s (69/100) - 274.00MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A2752383C1, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6055s (70/100) - 266.46MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A2D3B4A468, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6209s (71/100) - 266.39MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A2D4ADA6F0, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6264s (72/100) - 266.28MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A2D613F701, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6246s (73/100) - 259.16MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A334881C24, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6122s (74/100) - 259.14MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A334C63095, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6078s (75/100) - 259.06MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A335EAD979, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6361s (76/100) - 252.20MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A3960D534F, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6379s (77/100) - 252.17MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A396686130, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6382s (78/100) - 252.09MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A3978F4373, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5630s (79/100) - 245.88MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A3F338E534, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5682s (80/100) - 245.84MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A3F3E10F45, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5678s (81/100) - 245.77MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A3F503FACF, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5773s (82/100) - 239.83MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A45139FFCF, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5705s (83/100) - 239.81MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A45178E3FD, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5709s (84/100) - 239.74MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A452A0FD8E, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5932s (85/100) - 233.99MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A4B0725877, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6015s (86/100) - 233.98MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A4B0B44622, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5986s (87/100) - 233.91MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A4B1EB21CE, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5850s (88/100) - 228.46MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A50F2A4732, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5895s (89/100) - 228.46MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A50F2F8E26, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.5951s (90/100) - 228.36MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A510FFCCC5, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7147s (91/100) - 222.78MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A5755EB3BB, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7226s (92/100) - 222.75MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A575DC8CB8, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7378s (93/100) - 222.61MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A5789191B9, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7364s (94/100) - 217.31MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A5DCDF5B52, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6923s (95/100) - 217.28MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A5DD72FC42, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.7393s (96/100) - 217.27MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A5DD89685B, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6424s (97/100) - 212.37MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A63EC087D8, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6482s (98/100) - 212.33MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A63FB0139D, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.6553s (99/100) - 212.30MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A64032091A, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Write operation completed in 1.4054s (100/100) - 208.32MB/s, error: XMinioStorageFull: Storage backend has reached its minimum free drive threshold. Please delete a few objects to proceed.
+	status code: 507, request id: 1762A1A69288ACFA, host id: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+Running Read test...
+Read operation completed in 1.1740s (1/100) - 872.22MB/s
+Read operation completed in 1.1862s (2/100) - 1726.45MB/s
+Read operation completed in 1.1900s (3/100) - 2581.52MB/s
+Read operation completed in 1.1767s (4/100) - 1742.46MB/s
+Read operation completed in 1.1767s (5/100) - 2166.76MB/s
+Read operation completed in 1.1791s (6/100) - 2593.38MB/s
+Read operation completed in 1.2063s (7/100) - 2015.00MB/s
+Read operation completed in 1.2096s (8/100) - 2292.92MB/s
+Read operation completed in 1.2136s (9/100) - 2572.33MB/s
+Read operation completed in 1.3221s (10/100) - 2087.73MB/s
+Read operation completed in 1.3500s (11/100) - 2295.49MB/s
+Read operation completed in 1.3506s (12/100) - 2495.99MB/s
+Read operation completed in 1.2314s (13/100) - 2169.42MB/s
+Read operation completed in 0.0007s (14/100) - 2169.15MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0007s (15/100) - 2168.92MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 1.2311s (16/100) - 2335.58MB/s
+Read operation completed in 0.0006s (17/100) - 2335.54MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (18/100) - 2335.39MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (19/100) - 2335.36MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (20/100) - 2335.17MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0006s (21/100) - 2335.15MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (22/100) - 2335.01MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (23/100) - 2334.98MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (24/100) - 2334.84MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (25/100) - 2334.82MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (26/100) - 2334.63MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (27/100) - 2334.62MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (28/100) - 2334.45MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0006s (29/100) - 2334.39MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (30/100) - 2334.26MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (31/100) - 2334.22MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (32/100) - 2334.07MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (33/100) - 2334.06MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (34/100) - 2333.89MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (35/100) - 2333.82MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (36/100) - 2333.71MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0006s (37/100) - 2333.60MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (38/100) - 2333.52MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 1.2205s (39/100) - 2500.12MB/s
+Read operation completed in 0.0004s (40/100) - 2500.12MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (41/100) - 2500.02MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (42/100) - 2499.95MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (43/100) - 2499.94MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (44/100) - 2499.85MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (45/100) - 2499.77MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (46/100) - 2499.72MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (47/100) - 2499.66MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (48/100) - 2499.57MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (49/100) - 2499.56MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (50/100) - 2499.50MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (51/100) - 2499.40MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (52/100) - 2499.40MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (53/100) - 2499.35MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (54/100) - 2499.22MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (55/100) - 2499.21MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (56/100) - 2499.15MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (57/100) - 2499.03MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (58/100) - 2499.02MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (59/100) - 2498.97MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (60/100) - 2498.87MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (61/100) - 2498.85MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (62/100) - 2498.79MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (63/100) - 2498.70MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (64/100) - 2498.62MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (65/100) - 2498.57MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (66/100) - 2498.53MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (67/100) - 2498.46MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (68/100) - 2498.42MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (69/100) - 2498.36MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (70/100) - 2498.29MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (71/100) - 2498.22MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (72/100) - 2498.15MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (73/100) - 2498.11MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (74/100) - 2498.02MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (75/100) - 2497.92MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0006s (76/100) - 2497.91MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (77/100) - 2497.83MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (78/100) - 2497.72MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (79/100) - 2497.71MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (80/100) - 2497.65MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (81/100) - 2497.53MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (82/100) - 2497.52MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (83/100) - 2497.47MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (84/100) - 2497.34MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (85/100) - 2497.31MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (86/100) - 2497.26MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (87/100) - 2497.14MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (88/100) - 2497.09MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (89/100) - 2497.06MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (90/100) - 2496.96MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (91/100) - 2496.90MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (92/100) - 2496.87MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (93/100) - 2496.77MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (94/100) - 2496.71MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (95/100) - 2496.64MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0004s (96/100) - 2496.59MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (97/100) - 2496.51MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (98/100) - 2496.45MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (99/100) - 2496.40MB/s, error: expected object length 1073741824, actual 0
+Read operation completed in 0.0005s (100/100) - 2496.33MB/s, error: expected object length 1073741824, actual 0
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           loadgen
+objectNamePrefix: loadgen
+objectSize:       1024.0000 MB
+numClients:       3
+numSamples:       100
+verbose:       %!d(bool=true)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 15360.000 MB
+Total Throughput:  208.32 MB/s
+Total Duration:    73.731 s
+Number of Errors:  85
+------------------------------------
+Write times Max:       6.988 s
+Write times 99th %ile: 6.988 s
+Write times 90th %ile: 6.987 s
+Write times 75th %ile: 5.833 s
+Write times 50th %ile: 5.617 s
+Write times 25th %ile: 4.960 s
+Write times Min:       3.642 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 15360.000 MB
+Total Throughput:  2496.33 MB/s
+Total Duration:    6.153 s
+Number of Errors:  85
+------------------------------------
+Read times Max:       1.351 s
+Read times 99th %ile: 1.351 s
+Read times 90th %ile: 1.350 s
+Read times 75th %ile: 1.231 s
+Read times 50th %ile: 1.210 s
+Read times 25th %ile: 1.179 s
+Read times Min:       1.174 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 13.24932ms
